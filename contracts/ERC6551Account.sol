@@ -10,8 +10,6 @@ import "@openzeppelin/contracts/token/ERC721/IERC721.sol";
 import "@openzeppelin/contracts/interfaces/IERC1271.sol";
 import "@openzeppelin/contracts/utils/cryptography/SignatureChecker.sol";
 
-import "hardhat/console.sol";
-
 contract ERC6551Account is IERC165, IERC1271, IERC6551Account {
     uint256 public nonce;
 
